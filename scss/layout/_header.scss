@@ -31,16 +31,16 @@ header.header {
     .header__main {
         position: relative;
 		z-index: 1;
-        padding: 16px 0 40px;
+        padding: 15px 0;
 
         @include breakpoint(brotherbear) {
-            padding: 5px 0;
+            padding: 10px 0;
         }
 
         .max__width {
             width: 100%;
             display: flex;
-            justify-content: space-between;
+            justify-content: center;
             flex-wrap: wrap;
             align-items: center;
         }
@@ -92,7 +92,7 @@ header.header {
         .burger__menu {
             display: none;
             margin-left: 30px;
-            @include breakpoint(1060px) {
+            @include breakpoint(550px) {
                 display: block;
             }
 

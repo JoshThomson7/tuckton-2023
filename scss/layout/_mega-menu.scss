@@ -1,6 +1,6 @@
 nav.mega-menu {
     margin-left: 20px;
-    @include breakpoint(1060px) {
+    @include breakpoint(550px) {
         display: none;
     }
 
@@ -16,9 +16,9 @@ nav.mega-menu {
             a {
                 font-size: var(--fl1-base-font-size);
                 color: var(--fl1-text);
-                font-size: var(--fl1-font-xxs);
+                font-size: var(--fl1-font-xs);
                 font-weight: 600;
-                padding: var(--fl1-spacing-sm) var(--fl1-spacing-xs);
+                padding: var(--fl1-spacing-sm) var(--fl1-spacing-sm);
                 display: block;
                 position: relative;
                 border-radius: var(--fl1-radius-sm) var(--fl1-radius-sm) 0 0;
